@@ -73,6 +73,17 @@ body {
   border: 1px solid white;
 }
 
+.todowidth {
+  width: 80%;
+  word-wrap: break-word;
+}
+
+.check,
+.delete {
+  background-color: rgba(255, 255, 255, 0);
+  border: 1px solid white;
+  width: 60px;
+}
 @media screen and (max-width: 950px) {
   h1 {
     font-size: 25px;
@@ -102,5 +113,17 @@ body {
     display: flex;
     justify-content: center;
     width: 100%;
+  }
+
+  .todowidth {
+    width: 60%;
+    word-wrap: break-word;
+  }
+
+  .check,
+  .delete {
+    background-color: rgba(255, 255, 255, 0);
+    border: 1px solid white;
+    width: 55px;
   }
 }
