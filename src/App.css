@@ -78,15 +78,22 @@ body {
     font-size: 25px;
   }
 
-  .todo {
-    flex-direction: column;
-    align-items: center;
-  }
-
   .todo select,
   button,
   input {
     margin-bottom: 10px;
     width: 100%;
+  }
+
+  .App-main .main-card {
+    width: 80%;
+  }
+
+  .todo {
+    display: flex;
+    width: 75%;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
   }
 }
